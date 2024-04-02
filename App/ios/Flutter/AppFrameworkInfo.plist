@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
   <key>CFBundleDevelopmentRegion</key>
-  <string>$(DEVELOPMENT_LANGUAGE)</string>
+  <string>en</string> <!-- Replace with your app's development region (language) -->
   <key>CFBundleExecutable</key>
-  <string>App</string>
+  <string>$(EXECUTABLE_NAME)</string> <!-- This is usually left as is -->
   <key>CFBundleIdentifier</key>
-  <string>io.flutter.flutter.app</string>
+  <string>com.example.myapp</string> <!-- Replace with your app's bundle identifier -->
   <key>CFBundleInfoDictionaryVersion</key>
-  <string>6.0</string>
+  <string>6.0</string> <!-- Keep it as it is -->
   <key>CFBundleName</key>
-  <string>App</string>
+  <string>MyApp</string> <!-- Replace with your app's name -->
   <key>CFBundlePackageType</key>
-  <string>FMWK</string>
+  <string>APPL</string> <!-- For applications -->
   <key>CFBundleShortVersionString</key>
-  <string>1.0</string>
+  <string>1.0</string> <!-- Replace with your app's version number -->
   <key>CFBundleSignature</key>
-  <string>????</string>
+  <string>????</string> <!-- Not typically used -->
   <key>CFBundleVersion</key>
-  <string>1.0</string>
-  <key>MinimumOSVersion</key>
-  <string>8.0</string>
+  <string>1</string> <!-- Replace with your app's build version number -->
 </dict>
 </plist>
